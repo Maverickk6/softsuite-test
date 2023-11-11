@@ -1,0 +1,212 @@
+@use "../../styles/variables/_colors.scss" as colors;
+@use "../../styles/variables/_fonts.scss" as fonts;
+
+.mainContainer2 {
+  margin-right: 0.2rem;
+  width: 19rem;
+  // flex: 1;
+  // height: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 0.8rem;
+  padding-right: 0.4rem;
+  font-family: "Gilroy-Regular", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .top {
+    // background-color: rebeccapurple;
+    // height: 3.5rem;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // align-items: center;
+    & > img {
+      margin-right: 1.5rem;
+      height: 2rem;
+      width: 2rem;
+    }
+    &:hover {
+      cursor: pointer;
+      // background-color: rgb(197, 206, 244);
+    }
+    .topHiddenElemTab {
+      padding: 0rem 1rem;
+      .top1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .top11img {
+          margin-right: 1.1rem;
+          height: 1.54rem;
+          width: 1.44rem;
+        }
+        .top12img {
+          margin-left: 1.2rem;
+          height: 1.1rem;
+          width: 1rem;
+        }
+        .topDivP {
+          .p1 {
+            font-family: "Gilroy-Regular", sans-serif;
+            color: #2d416f;
+            font-size: 0.9rem;
+          }
+          .p2 {
+            font-family: "Gilroy-Bold", sans-serif;
+            color: #2d416f;
+            font-size: 1rem;
+          }
+        }
+        & > p {
+          font-size: 1rem;
+        }
+      }
+      .hiddenTab1 {
+        .tab1p {
+          display: flex;
+          padding: 0.1rem;
+          // background-color: red;
+          margin: 0.3rem 0;
+          align-items: center;
+          border-radius: 10px;
+          & > p {
+            font-family: "Gilroy-Regular", sans-serif;
+            color: #2d416f;
+          }
+
+          .imgDiv {
+            width: 2rem;
+            height: 2rem;
+            & > img {
+              height: 1rem;
+              margin: 0 0.8rem 0 0.3rem;
+              filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg)
+                brightness(1000%) contrast(80%);
+            }
+          }
+          &:hover {
+            background-color: #f6f1f1;
+          }
+        }
+        > *:not(:last-child) {
+          border-bottom: 1px solid #f7ebeb;
+
+          /* styles for all children except the last one */
+        }
+      }
+    }
+    .tab2 {
+      display: flex;
+      padding: 1rem;
+      align-items: center;
+      width: 70%;
+      border-radius: 10px;
+      margin-top: 1rem;
+      & > img {
+        margin-right: 1rem;
+      }
+      & > p {
+        font-family: "Gilroy-Regular", sans-serif;
+        color: #2d416f;
+      }
+      &:hover {
+        background-color: #f6ecec;
+      }
+    }
+    .tab3 {
+      display: flex;
+      // justify-content: space-between;
+      padding: 1rem;
+      align-items: center;
+      // width: 70%;
+      border-radius: 10px;
+      margin-top: 1rem;
+      .img1 {
+        margin-right: 1.8rem;
+        height: 1.3rem;
+        width: 1.4rem;
+      }
+      .img2 {
+        margin-left: 1.5rem;
+      }
+
+      & > p {
+        font-family: "Gilroy-Regular", sans-serif;
+        color: #2d416f;
+      }
+      &:hover {
+        background-color: #f6ecec;
+      }
+    }
+    .tab4 {
+      display: flex;
+      padding: 1rem;
+      align-items: center;
+      border-radius: 10px;
+      margin-top: 1rem;
+      & > img {
+        margin-right: 1.8rem;
+        height: 1.3rem;
+        width: 1.4rem;
+      }
+
+      & > p {
+        font-family: "Gilroy-Regular", sans-serif;
+        color: #2d416f;
+      }
+      &:hover {
+        background-color: #f6ecec;
+      }
+    }
+    .hiddentab2 {
+      .tab5 {
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        background-color: #4baa79;
+        border-radius: 10px;
+        margin-top: 1rem;
+        .img1 {
+          margin-right: 1.8rem;
+          height: 1.3rem;
+          width: 1.2rem;
+        }
+        .img2 {
+          margin-left: 1.5rem;
+        }
+
+        & > p {
+          font-family: "Gilroy-Regular", sans-serif;
+          color: #ffffff;
+        }
+      }
+      .hiddenElementTab2 {
+        margin-top: 1rem;
+        .tab2p {
+          background-color: #f4fff4;
+          margin: 0.4rem 0;
+          padding: 0.4rem;
+          width: 70%;
+          border-radius: 10px;
+          & > p {
+            margin-left: 1rem;
+            color: #2d416f;
+          }
+          &:hover {
+            background-color: #e2f7cf;
+          }
+        }
+      }
+    }
+  }
+  .divider {
+    height: 1px;
+    background-color: rgb(209, 197, 197);
+    margin: 2rem 0;
+    width: 90%;
+  }
+}
