@@ -1,0 +1,10 @@
+@use "../../styles/variables/_colors.scss" as colors;
+@use "../../styles/variables/_fonts.scss" as fonts;
+
+.mainContainer {
+    .body {
+        display: flex;
+        width: 95%;
+        background-color: #eee;
+    }
+}

@@ -3,18 +3,19 @@ import Header from "../../components/header/Header";
 import styles from "./HomePageLayout.module.scss";
 import SideBar from "../../components/Sidebar/SideBar";
 
-const HomePageLayout = () => {
+interface Props {
+  children: React.ReactNode;
+}
+
+const HomePageLayout = (props: Props) => {
   return (
-    <div className={styles.mainCOntainer}>
+    <div className={styles.mainContainer}>
       <Header />
       <div className={styles.body}>
         {/* <div className={styles.sidebar}> */}
         <SideBar />
         {/* </div> */}
-        <div className={styles.inner}>
-          {/* <UsersComponent />
-          <TableDetails /> */}
-        </div>
+        <div className={styles.inner}>{props.children}</div>
       </div>
     </div>
   );

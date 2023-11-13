@@ -3,9 +3,9 @@ import styles from "./SideBar.module.scss";
 import { assets } from "../../constants";
 
 const SideBar: React.FC = () => {
-  const [sideTabOneShow, setSideTabOne] = useState(false);
+  const [sideTabOneShow, setSideTabOne] = useState<boolean>(false);
   const [isSelected, setIsSelected] = useState<boolean>(true);
-  const [showElements, setShowElements] = useState(false);
+  const [showElements, setShowElements] = useState<boolean>(false);
   return (
     <div className={styles.mainContainer2}>
       <div className={styles.top}>
