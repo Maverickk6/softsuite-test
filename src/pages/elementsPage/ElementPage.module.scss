@@ -1,0 +1,11 @@
+.mainContainer {
+  padding: 1rem;
+  .elementHeader {
+    display: flex;
+    & > NavLink {
+      .active {
+        text-decoration: none;
+      }
+    }
+  }
+}

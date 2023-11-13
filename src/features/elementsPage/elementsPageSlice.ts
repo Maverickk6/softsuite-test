@@ -48,7 +48,7 @@ export const initialState = {
             effectiveEndDate: '2015-06-16',
             selectedMonths: ['April', 'May'],
             payFrequency: 'regular'
-        }]
+        },]
 } as ElementPageType;
 
 
@@ -58,7 +58,7 @@ export const elementPageSlice = createSlice({
     reducers: {
 
     },
-    extraReducers(builder) {
+    // extraReducers(builder) {
 
-    }
-})
+    // }
+});

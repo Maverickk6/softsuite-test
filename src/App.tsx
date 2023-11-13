@@ -1,7 +1,5 @@
-import { useState } from "react";
 import "./App.scss";
-import { Routes, Route, Navigate } from "react-router-dom";
-import HomePageLayout from "./components/HomePageLayout/HomePageLayout";
+import { Routes, Route } from "react-router-dom";
 import ElementPage from "./pages/elementsPage/ElementPage";
 
 function App() {
