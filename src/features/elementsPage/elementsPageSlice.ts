@@ -62,3 +62,5 @@ export const elementPageSlice = createSlice({
 
     // }
 });
+
+export default elementPageSlice.reducer;

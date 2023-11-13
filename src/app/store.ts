@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
 import navigationReducer from '../features/activeLinks/activeLinkSlice';
+import elementsReducer from '../features/elementsPage/elementsPageSlice';
 
 export const store = configureStore({
     reducer: {
         navigation: navigationReducer,
+        elementPages: elementsReducer,
     }
 })
 
