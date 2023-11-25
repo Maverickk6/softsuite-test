@@ -11,6 +11,7 @@ import Payroll from "../assets/payroll.png";
 import Salary from '../assets/salary.png';
 import Settings from '../assets/Setting.png'
 import Employees from '../assets/employees.png';
+import ArrowRight from '../assets/arrowRight.svg'
 
 export default {
   Logo,
@@ -26,4 +27,5 @@ export default {
   Salary,
   Settings,
   Employees,
+  ArrowRight
 };

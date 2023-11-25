@@ -1,9 +1,19 @@
+@use "../../styles/variables/_fonts.scss" as fonts;
+
 .mainContainer {
   padding: 1rem;
   .elementHeader {
+    font-family: "Gilroy-Regular", sans-serif;
+    color: #2d416f;
     display: flex;
+    justify-content: space-between;
+    width: 100%;
     & > NavLink {
       .active {
+        text-decoration: none;
+        margin: 0 1rem;
+      }
+      .inactive {
         text-decoration: none;
       }
     }

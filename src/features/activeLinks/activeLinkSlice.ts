@@ -5,7 +5,7 @@ interface ActivePageState {
 }
 
 const initialState: ActivePageState = {
-    activePage: '',
+    activePage: 'payroll-management',
 };
 
 const activePageSlice = createSlice({
