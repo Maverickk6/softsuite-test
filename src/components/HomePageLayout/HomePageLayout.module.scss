@@ -4,7 +4,10 @@
 .mainContainer {
     .body {
         display: flex;
-        width: 95%;
+        width: full;
         background-color: #eee;
+        .inner {
+            width: 74%;
+        }
     }
 }

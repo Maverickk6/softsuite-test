@@ -12,6 +12,7 @@ import Salary from '../assets/salary.png';
 import Settings from '../assets/Setting.png'
 import Employees from '../assets/employees.png';
 import ArrowRight from '../assets/arrowRight.svg'
+import FilterIcon from '../assets/Filter.svg';
 
 export default {
   Logo,
@@ -27,5 +28,6 @@ export default {
   Salary,
   Settings,
   Employees,
-  ArrowRight
+  ArrowRight,
+  FilterIcon
 };

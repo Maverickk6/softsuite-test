@@ -1,6 +1,7 @@
 @use "../../styles/variables/_fonts.scss" as fonts;
 
 .mainContainer {
+  width: 100%;
   padding: 1rem;
   .elementHeader {
     font-family: "Gilroy-Regular", sans-serif;

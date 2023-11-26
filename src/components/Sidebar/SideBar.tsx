@@ -4,7 +4,7 @@ import { assets } from "../../constants";
 
 const SideBar: React.FC = () => {
   const [sideTabOneShow, setSideTabOne] = useState<boolean>(false);
-  const [isSelected, setIsSelected] = useState<boolean>(true);
+  const [isSelected] = useState<boolean>(true);
   const [showElements, setShowElements] = useState<boolean>(false);
   return (
     <div className={styles.mainContainer2}>
